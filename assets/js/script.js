@@ -260,6 +260,7 @@ function addAnimation() {
       scrollerInner.appendChild(duplicatedItem);
     });
   });
+  
 }
 
 // NOTES
@@ -360,3 +361,5 @@ function previewImage() {
 //         checkSwipeDirection();
 //     }, false);
 // });
+
+
