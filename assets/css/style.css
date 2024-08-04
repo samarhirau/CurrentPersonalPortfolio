@@ -435,6 +435,19 @@ main {
   #SIDEBAR
 \*-----------------------------------*/
 
+
+#downloadBtn{
+  background: var(--orange-yellow-crayola);
+  color: var(--white-1);
+  font-size: var(--fs-7);
+  font-weight: var(--fw-300);
+  padding: 5px 15px;
+  border-radius: 8px;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  margin-top: 10px;
+}
 .sidebar {
   margin-bottom: 15px;
   max-height: 112px;
@@ -1185,7 +1198,7 @@ margin-top:100px;}
   border-radius: 1em;
   overflow: hidden;
   height: 0.8em;
-  box-shadow: -6px -6px 7px rgba(255, 255, 255, 0.285),
+  box-shadow: -6px -6px 7px rgba(255, 255, 255, 0.1),
   7px 7px 7px rgba(70, 70, 70, 0.12),
   inset -6px -6px 7px rgba(255, 255, 255, 0.2),
   inset 7px 7px 7px rgba(70, 70, 70, 0.12);
@@ -1196,7 +1209,7 @@ margin-top:100px;}
   background:cadetblue;
   height: 100%;
   border-radius: inherit;
-  opacity: 0.5;
+  opacity: 0.8;
 }
 /*-----------------------------------*\
   #PROFESSIONAL SKILL
